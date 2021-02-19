@@ -15,7 +15,7 @@ This configuration is recommended for bulk ingestion environments, despite is no
 **Syntax**
 
 ```
-./alf_pg11_partitioner.sh -dbname <database> -dbhost <database host name> \
+$ ./alf_pg11_partitioner.sh -dbname <database> -dbhost <database host name> \
 -dbuser <database user> -dbpass <database user password> \
 -totalnodes <nodes to be indexed> -partitionnodes <nodes for each partition>
 ```
